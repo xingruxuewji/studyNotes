@@ -53,6 +53,8 @@ sudo mount -o remount -rw /
 sudo mount -o remount -rw /var/snap/firefox/common/host-hunspell  
 ```
 
+20240930
+
 <br>
 
 
