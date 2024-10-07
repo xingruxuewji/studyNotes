@@ -35,6 +35,8 @@ dpkg |当你下载了软件的deb包，在对应路径输入dpkg -i 包名安装
 ldd |显示可执行模块依赖
 df |查看磁盘空间
 mount |挂载
+netstat-a|查看端口占用情况
+chmod -R  777 |将文件下所有文件夹及文件赋权
 
 
 ### <span id="j3">磁盘扩容</span>

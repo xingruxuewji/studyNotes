@@ -18,13 +18,16 @@ unique_ptr<double> funCopy(double num){
 
 容器使用unique_ptr
 ```cpp
-std::vector<unique_ptr<>>
+std::vector<unique_ptr<int>> vec；
+vec.push_back(std::move(1));
 ```
 
 <br>unique_ptr可以指定删除器,删除器可以先指定
 
 ```cpp
+//在deleteFunP中写删除操作
 void(*deleteFunP)(int, int);
+
 unique_ptr<int, deleteFunP> numP(new(5));
 
 ```
